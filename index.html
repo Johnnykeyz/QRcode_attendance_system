@@ -264,7 +264,6 @@
         const clearButton = document.getElementById('clearButton');
         const exportButton = document.getElementById('exportButton');
         const studentCount = document.getElementById('studentCount');
-        const offlineIndicator = document.getElementById('offlineIndicator');
         
         // Set default date to today
         const today = new Date();
@@ -465,7 +464,7 @@
         }
 
         // PWA SPECIFIC CODE
-
+/*
         // Check if the app is online or offline
         function updateOnlineStatus() {
             if (navigator.onLine) {
@@ -478,7 +477,7 @@
         window.addEventListener('online', updateOnlineStatus);
         window.addEventListener('offline', updateOnlineStatus);
         updateOnlineStatus(); // Initial check
-
+*/
         // PWA Install prompt
         let deferredPrompt;
         const installButton = document.getElementById('installButton');
